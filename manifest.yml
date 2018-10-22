@@ -1,0 +1,19 @@
+---
+language: windows_vault
+default_versions:
+dependency_deprecation_dates:
+dependencies: []
+
+include_files:
+  - README.md
+  - VERSION
+  - bin/detect
+  - bin/detect.bat
+  - bin/detect.ps1
+  - bin/load_vault.bat
+  - bin/load_vault.ps1
+  - bin/supply
+  - bin/supply.bat
+  - bin/supply.ps1
+  - manifest.yml
+pre_package: scripts/build.sh
